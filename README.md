@@ -1,46 +1,17 @@
-# Getting Started with Create React App
+react & typescript를 활용하여 간단한 todoApp 만들기 (디자인 제외)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+알았는데 자신 없던 키워드 : map함수, filter함수 ,localStorage
 
-## Available Scripts
+문법 및 설계단계에서 배운점 :
+주요 item과 setItem(이 둘은 전반적으로 쓰임)의 타입을 따로 만들어서 export한다.
+src에서 index.tsx에 직접적으로 export되는 최상단 App.tsx에 큰틀을 짠다. 
+App에 큰틀을 짰으면 세부적인 컴포넌트를 짠다.
 
-In the project directory, you can run:
+App에서 세부적인 컴포넌트로 필요한 prop을 보낸다. 
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+* 처음 언어를 익힐 때 강의를 참고하되 키워드 위주로 익히며, 100% 이해하려고 너무 많은 시간을 할애하지 않는다. 
+--> 이거 이후 바로 다른 클론코딩을 
+1. 첫번에는 한줄한줄 이해하면서 따라한다.
+2. 두번째는 강의를 참고하지 않고 혼자 생각하면서 치되, 문법적인 부분이라던가 이해하지 않은 부분은 강의를 잠깐잠깐 참고한다.
+---> 다 짜고 나서 여기서 무엇을 배웠는지 상기하며 readMe에 적는다.
